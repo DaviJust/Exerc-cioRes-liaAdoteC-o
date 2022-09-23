@@ -1,0 +1,74 @@
+
+.imgDog {
+  display: flex;
+  left: 0px;
+  right: 0px;
+}
+.container {
+    display: flex; 
+    padding: 0px;
+    flex-direction: row;
+    right: 0px;
+    left: 0px;
+  }
+  .box {
+    display: block;
+    justify-content: flex-start;
+    height: 40px;
+    font-family: "Verdana";
+    text-align: center;
+    
+  }
+  .primeira {
+    flex: 1;
+    margin:0px;
+    text-align:center;
+    font-size:0.8cm;
+    background-color: black;
+    
+  }
+  .segunda {
+    color: black;
+    flex: 1;
+    margin:0px;
+    text-align:center;
+    font-size:0.8cm;
+    background-color: pink;
+  }
+  .terceira {
+    flex: 1;
+    margin:0px;
+    text-align:center;
+    font-size:0.8cm;
+    background-color: red;
+  }
+  .quarta {
+    color: black;
+    flex: 1;
+    margin:0px;
+    text-align:center;
+    font-size:0.8cm;
+    background-color: yellow; }
+    .caixaInfo {
+      background-color: rgb(72, 53, 53);
+      position: relative;
+      left:32.9%;
+      right:0%;
+      padding: 20px;
+      height: 40px;
+      width: 400px;
+      flex-direction: column;
+
+    }
+    .mapaGoogle {
+      position:absolute;
+      height: 400px;
+      width:500px;
+      left:0px;
+      right: 0px;
+
+
+    }
+    .imgDog {
+      position: flex;
+    }
